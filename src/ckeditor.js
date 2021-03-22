@@ -26,7 +26,7 @@ import ImageStyle from '@ckeditor/ckeditor5-image/src/imagestyle';
 import ImageToolbar from '@ckeditor/ckeditor5-image/src/imagetoolbar';
 import ImageUpload from '@ckeditor/ckeditor5-image/src/imageupload';
 import MediaEmbed from '@ckeditor/ckeditor5-media-embed/src/mediaembed';
-
+import ImageResize from '@ckeditor/ckeditor5-image/src/imageresize';
 import SimpleUpload from 'ckeditor5-simple-upload/src/simpleupload';
 
 export default class ClassicEditor extends ClassicEditorBase {}
@@ -59,6 +59,7 @@ ClassicEditor.builtinPlugins = [
   ImageUpload,
   MediaEmbed,
   SimpleUpload,
+  ImageResize
 ];
 
 ClassicEditor.defaultConfig = {
